@@ -4,6 +4,15 @@
   "version": "0.1",
   "description": "Ikea 3d model downloader",
 
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ModelDownloader@IMD.com",
+      "data_collection_permissions": {
+      "required": ["none"]
+    }
+    }
+  },
+
  "permissions": [
     "downloads",
     "downloads.open",
