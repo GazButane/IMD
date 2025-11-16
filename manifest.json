@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "IMD",
+  "version": "0.1",
+  "description": "Ikea 3d model downloader",
+
+ "permissions": [
+    "downloads",
+    "downloads.open",
+    "activeTab",
+    "scripting"
+  ],
+
+"host_permissions": [
+    "*://www.ikea.com/*",
+    "*://web-api.ikea.com/*"
+  ],
+
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+"background": {
+    "scripts": ["background.js"]
+  },
+
+  "icons": {
+    "512": "icons/logo512-transparent.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.ikea.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
