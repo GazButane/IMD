@@ -1,6 +1,6 @@
 
 ![IMDLOGO](icons/banner.png)
-### IKEA 3D Model Downloader (IMB)
+### IKEA 3D Model Downloader (IMD)
 
 This Firefox extension automatically extracts and downloads .glb model files from IKEA product pages.
 
@@ -21,6 +21,8 @@ https://addons.mozilla.org/en/firefox/addon/imd-3d/
 
 → You can also install the package manually by downloading the .zip file (IMD.zip) of the latest release
 
+#### Screenshot:
+![IMDLOGO](icons/screenshot.png)
 ---
 
 If you found this plugin useful, don't forget to star the project or leave a rating on mozzilla.org!

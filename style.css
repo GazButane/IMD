@@ -2,6 +2,7 @@ body {
     background-color: #080f19ff;
     color: white;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 420px;
 }
 
 
@@ -11,7 +12,7 @@ body {
     padding: 8px 15px;
     text-align: center;
     text-decoration: none;
-    border-color: rgb(54, 54, 54);
+    border-color: rgb(255, 255, 255);
     border-style:solid;
     border-width: 0px;
     border-left-width: 1px;
@@ -26,16 +27,19 @@ body {
     height: 40px;
     font-size: 16px;
     line-height: normal;
-    display: flex;
+    /*display: flex;*/
 }
 
 .file-button:hover {
     transform: scale(1.05,1.05);
+    border-radius: 2px;
     border-width: 1px;
     border-left-width: 5px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
+    text-overflow:unset;
+    overflow:scroll;
+    word-wrap: break-word;
+    white-space: normal;
+    height: 80px;
 }
 
 .buttons{
@@ -46,7 +50,7 @@ body {
 button{
     color: rgb(255, 255, 255);
     background-color: #080f18;
-    border-radius: 1px;
+    border-radius: 2px;
     text-align: center;
     text-decoration: none;
     height: 50px;
@@ -60,6 +64,7 @@ button:hover{
     transform: scale(1.05,1.05);
     border-color: #ff5800ff;
     border-left-width: 5px;
+    box-shadow: 0px 0px 20px #1c3558;
 }
 
 
