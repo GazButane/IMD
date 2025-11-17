@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         files.forEach(link => {
             const btn = document.createElement("button");
-            btn.textContent = "Download: " + link;
+            btn.textContent = "💾 " + link;
             btn.className = "file-button";
             btn.addEventListener("click", () => {
                 log("→ DOWNLOAD_ONE sended for : " + link);
